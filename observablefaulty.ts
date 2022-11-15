@@ -51,5 +51,5 @@ const returnIdValue2 = objEmit.pipe(
 returnIdValue2.subscribe({
     next: (v) => console.log(`received : ${v}`),
     error: (e) => console.log(`error my friend!: ${e}`),
-    complete?: () => console.log(`complete !!`);
+    complete: () => console.log(`complete !!`)
 });
